@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9dc95dce-f6d9-45de-bdab-f98f7e5f2311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leospa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/config/.checksums" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/config/@sanity/data-aspects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/config/@sanity/default-layout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/config/@sanity/default-login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/config/@sanity/form-builder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/plugins/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/sanity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.nowignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/Draw/mainBackdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/Draw/sideDrawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/Draw/sideDrawerToggler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/Toolbar/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/head.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/mainMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/api/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leospa" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VesNrz3IxgZ9sdt4ZTI9i49AWI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/public" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/public" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dc95dce-f6d9-45de-bdab-f98f7e5f2311" name="Default Changelist" comment="" />
+      <created>1577624857449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577624857449</updated>
+      <workItem from="1577624860599" duration="260000" />
+      <workItem from="1577625124801" duration="5846000" />
+      <workItem from="1577840229780" duration="4655000" />
+      <workItem from="1577908851005" duration="7510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
