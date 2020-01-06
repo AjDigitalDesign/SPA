@@ -59,11 +59,13 @@ const Nav = (props) => {
                 background-color: #fff;
                 height: 60px;
               }
+             
               .toolbar_navigation{
                 display: flex;
                 height: 100%;align-items: center;
                 padding: 0 1rem;
               }
+            
               .toolbar_logo{
                 position:relative;
               }
@@ -102,17 +104,29 @@ const Nav = (props) => {
               .toolbar_navigation-items a:focus{
                 color: #ff817e;
               }
+              
               @media(max-width: 768px){
+                  .toolbar_navigation{
+                    display: flex;
+                    flex-flow: row;
+                    justify-content: space-between;
+                    align-items: center;
+                  }
+                    .toolbar_toggle_button{
+                    order: 2;
+                  }
                   .toolbar_navigation-items{
                     display: none;
                   }
                 }
                 
                 @media (min-width: 769px) {
-                  .toolbar_toogle_button{
+                  .toolbar_toggle_button{
                       display: none;
                   }
                 }
+                
+               
             `}</style>
         </header>
     )

@@ -21,12 +21,10 @@ class MainMenu extends React.Component{
     };
 
     render() {
-
         let mainBackdrop;
         if(this.state.sideDrawOpen){
             mainBackdrop = <MainBackdrop backdropClick={this.backdropHandler}/>
         }
-
         return(
             <Layout>
                 <Nav drowserClickHandler={this.drawToggleClickHandler} />

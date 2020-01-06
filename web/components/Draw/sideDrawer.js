@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const SideDraw = (props) => {
 
@@ -9,23 +10,39 @@ const SideDraw = (props) => {
 
 
     return(
-        <nav className={drawerClasses}>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-            </ul>
-
+        <header className="side_draw_container">
+            <div className="container">
+                <nav className={drawerClasses}>
+                    <div className="sidedraw-logo">
+                        <Link href="/">
+                            <a>
+                                <img src="logo.png" alt=""/>
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="sidedraw_menu">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Services</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
             <style jsx>{`
                 .sidedraw{
+                  display: flex;
+                  flex-flow: column;
+                  justify-content: space-evenly;
+                  align-items: center;
                   height: 100%;
                   background: #fff;
                   box-shadow: 2px 0px 5px rgba(0, 0, 0,0.5) ;
                   position:fixed;
                   top: 0;
                   left: 0;
-                  width: 70%;
-                  max-width: 400px;
+                  width: 60%;
+                  max-width: 300px;
                   z-index: 200;
                   transform: translateX(-101%);
                   transition: transfrom 0.3s ease-out;
@@ -40,6 +57,21 @@ const SideDraw = (props) => {
                     display: flex;
                     flex-flow: column;
                     justify-content: center; 
+                }
+                .sidedraw li a{
+                    color: #263a41;
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    padding: 0 20px;
+                    outline: none;
+                    text-decoration: none;
+                }
+                
+                .sidedraw a:hover,
+                .sidedraw a:focus{
+                  color: #ff817e;
                 }
                 
                 .sidedraw li{
@@ -63,9 +95,9 @@ const SideDraw = (props) => {
                 }
                 
             `}</style>
-        </nav>
+        </header>
     )
-}
+};
 
 
 export default SideDraw;
