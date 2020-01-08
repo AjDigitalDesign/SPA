@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dc95dce-f6d9-45de-bdab-f98f7e5f2311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/studio/schemas/blog/author.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/customize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/AboutUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/HeroImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/Popularprocedures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/imageGallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/social.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/staff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/pages/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/structure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lib/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lib/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/api/navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/Draw/sideDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Draw/sideDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/Toolbar/toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Toolbar/toolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/mainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/mainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/studio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/sanity.json" beforeDir="false" afterPath="$PROJECT_DIR$/studio/sanity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/schemas/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/studio/schemas/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/studio/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/components/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/web/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +83,19 @@
       <workItem from="1577625124801" duration="5846000" />
       <workItem from="1577840229780" duration="4655000" />
       <workItem from="1577908851005" duration="11526000" />
+      <workItem from="1578270748052" duration="8633000" />
+      <workItem from="1578418427700" duration="1880000" />
+      <workItem from="1578434353929" duration="5263000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="808" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578366382677">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="808" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.839@0.23.1440.839" timestamp="1578366382677" />
   </component>
 </project>

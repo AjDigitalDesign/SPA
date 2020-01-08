@@ -1,15 +1,18 @@
 import React, { Fragment } from 'react'
+import client from "../client";
+import navigationApi from "../pages/api/navigation";
 import Link from 'next/link'
 
 import DrawToggle from "./Draw/sideDrawerToggler";
 
-const Nav = (props) => {
+const Nav = (data) => {
+    console.log(data);
     return (
         <header className="toolbar">
             <div className="container">
                 <div className="toolbar_navigation">
                     <div className="toolbar_toggle_button">
-                        <DrawToggle click={props.drowserClickHandler}/>
+                        <DrawToggle click={data.drowserClickHandler}/>
                     </div>
                     <div className="toolbar_logo">
                         <Link href="/">
@@ -63,7 +66,7 @@ const Nav = (props) => {
               .toolbar_navigation{
                 display: flex;
                 height: 100%;align-items: center;
-                padding: 0 1rem;
+                padding: 15px 0;
               }
             
               .toolbar_logo{
@@ -130,6 +133,18 @@ const Nav = (props) => {
             `}</style>
         </header>
     )
+};
+
+
+import fetch from "isomorphic-unfetch";
+import { getApiUrl} from "../lib/api";
+
+Nav.getInitialProps = async context => {
+    const data = await fetch(getApiUrl(context) +  "/api/navigation")
+        .then(res =>res.json()
+    );
+    return data;
+    console.log(data);
 };
 
 export default Nav
