@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Head from "./head";
-import Nav from "./nav";
+import Nav from "./Navigation/nav";
 
 
 export default ({ children, title='LeoSpa'}) =>{

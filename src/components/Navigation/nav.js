@@ -1,23 +1,35 @@
 import React, { Fragment } from 'react'
-import client from "../client";
-import navigationApi from "../pages/api/navigation";
 import Link from 'next/link'
+import imageUrlBuilder from '@sanity/image-url'
+import client from "../../client";
+
 
 import DrawToggle from "./Draw/sideDrawerToggler";
 
-const Nav = (data) => {
-    console.log(data);
+function urlFor (source) {
+    return imageUrlBuilder(client).image(source)
+}
+
+const Nav = (props, image) => {
+
+console.log(props);
+
+
+    const backgroundImg = {
+        backgroundImage: `url(${urlFor(props.image) .url()})`
+    };
+
     return (
         <header className="toolbar">
             <div className="container">
                 <div className="toolbar_navigation">
                     <div className="toolbar_toggle_button">
-                        <DrawToggle click={data.drowserClickHandler}/>
+                        <DrawToggle click={props.drowserClickHandler}/>
                     </div>
                     <div className="toolbar_logo">
                         <Link href="/">
                             <a title="logo">
-                                <img src="logo.png" alt=""/>
+                                <img src={backgroundImg} alt=""/>
                             </a>
                         </Link>
                     </div>
@@ -133,18 +145,6 @@ const Nav = (data) => {
             `}</style>
         </header>
     )
-};
-
-
-import fetch from "isomorphic-unfetch";
-import { getApiUrl} from "../lib/api";
-
-Nav.getInitialProps = async context => {
-    const data = await fetch(getApiUrl(context) +  "/api/navigation")
-        .then(res =>res.json()
-    );
-    return data;
-    console.log(data);
 };
 
 export default Nav

@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from "./Layout";
+import Layout from "../Layout";
 import Nav from "./nav";
 import SideDraw from "./Draw/sideDrawer";
 import MainBackdrop from "./Draw/mainBackdrop";
